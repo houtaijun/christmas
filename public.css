@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0; outline:none; }
+body { font: 14px/24px '微软雅黑'; background: #f8f8f8; }
+a{text-decoration:none;color:#000;transition:color .1s}
+a:hover{color:#0066bc}
+
+/*头部*/
+.top-wrap{line-height:35px; font-size:14px; background:#3e96d6; overflow:hidden; text-align:center;}
+.top-wrap a{ display:inline-block;padding:0 10px; color:#fff;}
+.top-wrap a:hover{background:#1669ab;}
+
+/*回顶部*/
+.backtop{ width:50px; height:50px; text-align:center; line-height:50px; background: #3e96d6; color:#fff; position:fixed; right:50px; bottom:50px; cursor:pointer; display:none;}
+.backtop:hover{ background:#1669ab;}
+
+/*标题*/
+.main { overflow: hidden;margin:0 auto;}
+.head { color: #000; text-shadow: 1px 1px 0 #fff; text-align: center; margin: 70px 0 50px;  }
+.head h1 { font-family: "simsun", "宋体", Arial, serif; font-size: 36px;}
+.head p{color:#666;}
+#index-layer .head { color: #fff; text-shadow: 1px 1px 0 #000; }
+
+/*底部*/
+.footer { color: #666; text-shadow: 1px 1px 0 #eee; text-align: center; line-height: 25px; padding:40px 0;clear:both }
+.footer iframe{ margin-top:15px;}
+.footer a{color:#666;text-decoration:none;}
+.footer a:hover{color:#000}
+.footer .link a{padding:0 10px;}
+#index-layer .footer { color: #fff; text-shadow: 1px 1px 0 #000; }
+#index-layer .footer a{color:#fff;}
