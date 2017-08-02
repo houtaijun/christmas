@@ -1,6 +1,7 @@
 canvas合并图片，制作圣诞专属头像
 =========================
 [![Jquery](https://img.shields.io/badge/Jquery-1.8.3-blue.svg)](https://www.nuget.org/packages/jQuery/1.8.3)
+
 记得之前，整个微信朋友圈，好友头像都戴上了一顶独特的圣诞帽，别有一番圣诞的味道。
 
 有些不安分的朋友发了图片炫耀，结果很多人都给自己的好友发了圣诞快乐，当然我是不会承认我也发了的。
