@@ -11,8 +11,8 @@ img{ border:solid 1px #ddd;}
 
 <body>
 <div align="center">
-<img src="img1.jpg" width="300">
-<img src="img2.png" width="300">
+<img src="images/person.jpg" width="300">
+<img src="images/christmas_cap.png" width="300">
 </div>
 <div id="imgBox" align="center">
     <input type="button" value="一键合成" onClick="hecheng()">
@@ -29,7 +29,7 @@ function hecheng(){
 	})	
 }
 
-var data=['img1.jpg','img2.png'],base64=[];
+var data=['images/person.jpg','images/christmas_cap.png'],base64=[];
 function draw(fn){
 	var c=document.createElement('canvas'),
 		ctx=c.getContext('2d'),
@@ -57,7 +57,6 @@ function draw(fn){
 		}else{
 			//保存生成作品图片
 			base64.push(c.toDataURL("image/jpeg",0.8));
-			//alert(JSON.stringify(base64));
 			fn();
 		}
 	}
