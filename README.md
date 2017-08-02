@@ -13,4 +13,4 @@ canvas合并图片，制作圣诞专属头像
 ![](https://raw.githubusercontent.com/houtaijun/christmas/master/images/process.gif)
 
 
-*代码克隆到本地，请确保在服务器环境中打开，否则会出现跨域的问题 
+* 代码克隆到本地，请确保在服务器环境中打开，否则会出现跨域的问题 
